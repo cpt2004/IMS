@@ -1,42 +1,66 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 0 10vw 0 10vw;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.title{
+    text-align: center;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+hr{
+    border: solid black 1px;
+    margin: 0;
+    width: 100%;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.viewDataTable{
+    width: 80vw;
+    text-align: center;
+    border: solid black 2px;
+    th,tr,td{
+    border: solid black 2px;
+    }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.optionsMenu{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.addDataBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.addDataButton{
+    align-self: flex-end;
+}
+
+.addDataOptions{
+    display: flex;
+    justify-content:flex-start;
+    column-gap: 2vw;
+}
+
+.addDataTable{
+    width: 80vw;
+    td{
+        padding: 1vh 1vw 1vh 1vw;
+    }
+}
+
+#studentRollNo, #studentName{
+    height: 6vh;
+    min-height: 20px;
+    max-height: 50px;
+    width: 20vw;
 }
