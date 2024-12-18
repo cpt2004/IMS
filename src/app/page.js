@@ -1,5 +1,6 @@
 "use client";
 import './globals.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import ViewData from './components/viewData';
 import AddData from './components/addData';
 
@@ -13,7 +14,8 @@ export default function Home() {
       <h1 className='title'>Student Data</h1>
       <hr/>
       <AddData/>
-      <ViewData/>  
+      <ViewData/>
+      <SpeedInsights/>
     </div>
   );
 };
