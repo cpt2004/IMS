@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## NOTE : THIS PROJECT SERVES NO PRACTICAL PURPOSE AS OF NOW. I JUST MADE THIS TO LEARN NEXT.JS. FEEL FREE TO VISIT THE WEBSITE AND SHARE YOUR FEEDBACK
 
+[`Click Here`](https://student-ims.vercel.app/) to visit the website.
+
 ## Getting Started
 
 First, run the development server:
